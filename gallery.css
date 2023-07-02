@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: cornsilk;
+}
+
+.thumbnails {
+    padding: 0;
+}
+.thumbnails ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.thumbnails ul li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+img {
+    transition: filter 0.5s ease-in;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
